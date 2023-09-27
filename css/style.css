@@ -476,6 +476,9 @@ figcaption p {
   .about-content {
     width: 90%;
   }
+  .realization h2{
+    font-size: 3rem;
+  }
   .education {
     padding: 10rem 4% 5rem 5%;
   }
@@ -507,5 +510,8 @@ figcaption p {
   }
   .home-content img {
     width: 200px;
+  }
+  .realization h2{
+    font-size: 3rem;
   }
 }
