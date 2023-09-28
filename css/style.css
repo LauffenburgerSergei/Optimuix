@@ -293,6 +293,16 @@ figcaption p {
   min-height: auto;
   padding-bottom: 20rem;
 }
+.heading {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+span {
+  color: var(--main-color);
+}
 
 .contact Form {
   max-width: 70rem;
