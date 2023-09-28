@@ -301,7 +301,7 @@ figcaption p {
 }
 
 span {
-  color: var(--main-color);
+  color: var(--text-color);
 }
 .btn-box {
   position: relative;
