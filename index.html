@@ -32,6 +32,7 @@
         <a href="#dev">Développement</a>
         <a href="#design">Design Ux/UI</a>
         <a href="#ressources">Ressources</a>
+        <a href="#contact">Contact</a>
         <span class="active-nav" aria-hidden="true"></span>
       </nav>
     </header>
@@ -844,6 +845,68 @@
           </a>
         </article>
       </div>
+    </section>
+    <!--------------------------------------------------------------------------->
+    <!--------------------------------- Contact --------------------------------->
+    <!--------------------------------------------------------------------------->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        Contactez
+        <span>moi!</span>
+      </h2>
+
+      <form action="https://formspree.io/f/mdovvepr" method="POST">
+        <div class="input-box">
+          <div class="input-field">
+            <label>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Nom complet"
+                required
+              />
+              <span class="focus"></span>
+            </label>
+          </div>
+          <div class="input-field">
+            <label>
+              <input type="text" name="Email" placeholder="Email" required />
+              <span class="focus"></span>
+            </label>
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input-field">
+            <label>
+              <input type="text" name="Number" placeholder="Numéro" required />
+              <span class="focus"></span>
+            </label>
+          </div>
+          <div class="input-field">
+            <label>
+              <input type="text" name="Objet" placeholder="Object" required />
+              <span class="focus"></span>
+            </label>
+          </div>
+        </div>
+        <div class="textarea-field">
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Votre message"
+            required
+          ></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Envoyer</button>
+          <button type="button" class="btn" onclick='window.location.reload(false)' value="Rafraichir">Rafraichir</button>
+          
+        </div>
+      </form>
     </section>
     <!--------------------------------------------------------------------------->
     <!--------------------------------- Footer ---------------------------------->
