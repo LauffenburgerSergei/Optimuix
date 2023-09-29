@@ -627,6 +627,10 @@ form .btn-box {
   .home-content img {
     width: 200px;
   }
+
+  .home-content p{
+    font-size: 1.2rem;
+  }
   .about-content {
     width: 90%;
   }
